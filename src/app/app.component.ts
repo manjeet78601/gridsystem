@@ -21,23 +21,30 @@ export class AppComponent {
          sortingOrder: ['asc', 'desc']
       },
       {
-        headerName: 'Email',
-        field: 'Email',
-        width: 120,
-        sortingOrder: ['asc', 'desc']
-      },
-      {
-        headerName: 'Phone',
-        field: 'Phone',
-        width: 120,
-        sortingOrder: ['asc', 'desc']
-      },
-      {
-        headerName: 'Begin',
-        field: 'Begin',
-        width: 120,
-        sortingOrder: ['asc', 'desc']
-      }
+          headerName: 'Age',
+          field: 'age',
+          width: 120,
+          sortingOrder: ['asc', 'desc']
+        },
+
+      // {
+      //   headerName: 'Email',
+      //   field: 'Email',
+      //   width: 120,
+      //   sortingOrder: ['asc', 'desc']
+      // },
+      // {
+      //   headerName: 'Phone',
+      //   field: 'Phone',
+      //   width: 120,
+      //   sortingOrder: ['asc', 'desc']
+      // },
+      // {
+      //   headerName: 'Begin',
+      //   field: 'Begin',
+      //   width: 120,
+      //   sortingOrder: ['asc', 'desc']
+      // }
     ];
 
   }
